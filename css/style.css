@@ -1,0 +1,17 @@
+.navbar-left-items {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+#logo-img {
+    width: 120px;
+}
+
+.navbar-tel {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
