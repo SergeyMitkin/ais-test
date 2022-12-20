@@ -15,3 +15,21 @@
     text-align: center;
     margin-top: 10px;
 }
+
+.nav-links {
+    margin-left: auto;
+}
+
+.back-call-button {
+    max-width: 130px;
+    text-align: center;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffe500;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+}
