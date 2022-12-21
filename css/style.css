@@ -20,6 +20,24 @@
     margin-left: auto;
 }
 
+.nav-links .nav-item:not(:first-child, :nth-child(2)) {
+    margin-right: 20px;
+}
+
+.nav-links .nav-link {
+    color: black;
+}
+
+span.stretch {
+    font-size: 10px;
+    display:inline-block;
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1); /* W3C */
+}
+
 .back-call-button {
     max-width: 130px;
     text-align: center;
