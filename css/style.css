@@ -163,20 +163,20 @@ span.flattened {
     font-weight: bold;
 }
 
-.lambers {
+.requirements .lambers {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.lambers img {
+.requirements .lambers img {
     margin-top: 40px;
     margin-bottom: 20px;
     width: 40px;
 }
 
-.lamber-1,
-.lamber-2
+.requirements .lamber-1,
+.requirements .lamber-2
 {
     position: relative;
     height: 200px;
@@ -185,6 +185,50 @@ span.flattened {
     background-color: #2b2b2b;
     color: white;
     font-size: 14px;
+}
+
+.supplies {
+    background-color: #2b2b2b;
+    color: white;
+    margin-top: 80px;
+}
+
+.supplies p:first-child {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.supplies .lambers {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.supplies .lambers p {
+    font-size: 20px;
+}
+
+.supplies .lambers img{
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.supplies .lambers div.supplies-link {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.supplies .lambers div.supplies-link a {
+    padding-bottom: 2px;
+}
+
+.supplies .lambers div.supplies-link a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid white;
 }
 
 @media (max-width: 950px) {
