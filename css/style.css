@@ -134,7 +134,7 @@ span.flattened {
 }
 
 .text-section {
-    padding: 50px 10px 0 50px;
+    padding: 50px 10px 20px 50px;
     font-size: 20px;
 }
 
@@ -142,15 +142,25 @@ span.flattened {
     margin-bottom: 0;
 }
 
-.text-section .btn-warning {
+.service {
+    margin-bottom: 100px;
+}
+
+.service .btn-warning {
     margin-top: 30px;
     position: relative;
-    width: 250px;
-    font-size: 18px;
+    width: 400px;
+    font-size: 20px;
     padding: 15px 0;
     border-radius: 30px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.requirements {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 @media (max-width: 950px) {
