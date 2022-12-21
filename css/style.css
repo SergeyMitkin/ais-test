@@ -163,6 +163,30 @@ span.flattened {
     font-weight: bold;
 }
 
+.lambers {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lambers img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 40px;
+}
+
+.lamber-1,
+.lamber-2
+{
+    position: relative;
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 14px;
+}
+
 @media (max-width: 950px) {
     .img-4-text p:first-child {
         font-size: 30px
