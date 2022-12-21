@@ -231,6 +231,42 @@ span.flattened {
     border-bottom: 2px solid white;
 }
 
+.about {
+    background-color: #ffe500;
+    padding: 30px 0 30px 70px;
+}
+
+.about .section-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-transform:scale(1,1.1); /* Safari and Chrome */
+    -moz-transform:scale(1,1.1); /* Firefox */
+    -ms-transform:scale(1,1.1); /* IE 9 */
+    -o-transform:scale(1,1.1); /* Opera */
+    transform:scale(1,1.1); /* W3C */
+}
+
+.about-content {
+    position: relative;
+}
+
+.about .text {
+    width: 50%;
+    font-size: 18px
+}
+
+.about .text span {
+    font-weight: bold;
+}
+
+.about img {
+    position: absolute;
+    width: 380px;
+    top: 0;
+    right: 60px;
+}
+
 @media (max-width: 950px) {
     .img-4-text p:first-child {
         font-size: 30px
