@@ -134,7 +134,7 @@ span.flattened {
 }
 
 .text-section {
-    padding: 50px 10px 20px 50px;
+    padding: 50px 50px 20px 100px;
     font-size: 20px;
 }
 
@@ -158,8 +158,17 @@ span.flattened {
 }
 
 .requirements {
+    position: relative;
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.requirements h2 {
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -169,33 +178,34 @@ span.flattened {
     justify-content: space-around;
 }
 
-.requirements .lambers img {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    width: 40px;
-}
-
 .requirements .lamber-1,
 .requirements .lamber-2
 {
     position: relative;
-    height: 200px;
-    width: 250px;
+    height: 290px;
+    width: 350px;
     border-radius: 30px;
     background-color: #2b2b2b;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.requirements .lambers img {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 50px;
 }
 
 .supplies {
     background-color: #2b2b2b;
     color: white;
     margin-top: 80px;
+    padding-top: 10px;
 }
 
-.supplies p:first-child {
+.supplies h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -207,6 +217,7 @@ span.flattened {
 
 .supplies .lambers p {
     font-size: 20px;
+    text-align: center;
 }
 
 .supplies .lambers img{
@@ -233,13 +244,14 @@ span.flattened {
 
 .about {
     background-color: #ffe500;
-    padding: 30px 0 30px 70px;
+    padding: 40px 0 30px 70px;
 }
 
-.about .section-title {
+.about h2 {
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 30px;
     -webkit-transform:scale(1,1.1); /* Safari and Chrome */
     -moz-transform:scale(1,1.1); /* Firefox */
     -ms-transform:scale(1,1.1); /* IE 9 */
@@ -253,8 +265,8 @@ span.flattened {
 
 .about .text {
     width: 45%;
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .about .text span {
@@ -263,7 +275,7 @@ span.flattened {
 
 .about img {
     position: absolute;
-    width: 370px;
+    width: 490px;
     top: 0;
     right: 60px;
 }
