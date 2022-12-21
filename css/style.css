@@ -210,7 +210,7 @@ span.flattened {
 }
 
 .supplies .lambers img{
-    width: 300px;
+    width: 330px;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -252,8 +252,9 @@ span.flattened {
 }
 
 .about .text {
-    width: 50%;
-    font-size: 18px
+    width: 45%;
+    font-size: 17px;
+    line-height: 22px;
 }
 
 .about .text span {
@@ -262,9 +263,81 @@ span.flattened {
 
 .about img {
     position: absolute;
-    width: 380px;
+    width: 370px;
     top: 0;
     right: 60px;
+}
+
+.questions {
+    padding: 150px 60px 50px 60px;
+    background-color: #eeeeed;
+}
+
+.questions-form {
+    padding: 100px 50px 50px 90px;
+    background-color: white;
+    border-radius: 5px 30px 10px 0;
+}
+
+.questions-form .text {
+    margin-top: 100px;
+    float: left;
+    width: 35%;
+}
+
+.questions-form .text p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-transform:scale(1,1.1); /* Safari and Chrome */
+    -moz-transform:scale(1,1.1); /* Firefox */
+    -ms-transform:scale(1,1.1); /* IE 9 */
+    -o-transform:scale(1,1.1); /* Opera */
+    transform:scale(1,1.1); /* W3C */
+}
+
+.questions-form .text p:nth-child(2) {
+    font-size: 10px;
+    color: #4f394b;
+    margin-bottom: 5px;
+}
+
+.questions-form form {
+    margin-left: auto;
+    width: 40%;
+}
+
+.questions-form .form-group {
+    margin-bottom: 25px;
+}
+
+.questions-form label {
+    font-size: 10px;
+    color: #4f394b;
+    margin-bottom: 5px;
+}
+
+.questions-form input,
+.questions-form textarea {
+    border-radius: 8px;
+    background-color: #fbfbfb;
+}
+
+.questions-form input {
+    height: 35px;
+}
+
+.questions-form textarea {
+    resize: none;
+    height: 55px;
+}
+
+.questions-form .btn-dark {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 40px;
 }
 
 @media (max-width: 950px) {
