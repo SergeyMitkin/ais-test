@@ -109,12 +109,12 @@ span.stretch {
 .request-text p:first-child {
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 0.6em;
 }
 
 .request-text p:nth-child(2) {
     font-weight: 600;
     font-size: 20px;
-    margin-top: -0.6em;
 }
 
 .request-text ul {
@@ -220,7 +220,7 @@ span.stretch {
     text-align: center;
 }
 
-.supplies .lumbers img{
+.supplies .lumbers img {
     width: 330px;
     position: relative;
     left: 50%;
@@ -401,10 +401,4 @@ footer .footer-phone {
 
 footer .phpne-text span {
     display: block;
-}
-
-@media (max-width: 950px) {
-    .img-4-text p:first-child {
-        font-size: 30px
-    }
 }
