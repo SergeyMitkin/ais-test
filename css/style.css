@@ -85,12 +85,12 @@ span.stretch {
     font-style: italic;
 }
 
-.div-img-4 {
+.request {
     position: relative;
-    margin-top: -50px;
+    margin-top: -65px;
 }
 
-span.flattened {
+.request span.flattened {
     display:inline-block;
     -webkit-transform:scale(1,1.1); /* Safari and Chrome */
     -moz-transform:scale(1,1.1); /* Firefox */
@@ -99,25 +99,25 @@ span.flattened {
     transform:scale(1,1.1); /* W3C */
 }
 
-.img-4-text {
+.request-text {
     position: absolute;
     color: white;
     margin-top: 8%;
     margin-left: 57%;
 }
 
-.img-4-text p:first-child {
+.request-text p:first-child {
     font-weight: 600;
     font-size: 45px;
 }
 
-.img-4-text p:nth-child(2) {
+.request-text p:nth-child(2) {
     font-weight: 600;
     font-size: 20px;
     margin-top: -0.6em;
 }
 
-.img-4-text ul {
+.request-text ul {
     font-weight: 600;
     font-size: 18px;
     padding-left: 1.5em;
@@ -125,11 +125,11 @@ span.flattened {
     margin-bottom: 50px;
 }
 
-.img-4-text .btn-warning {
+.request-text .btn-warning {
     padding: 10px 20px;
 }
 
-.img-4 {
+.request img {
     width: 100%;
 }
 
@@ -172,14 +172,14 @@ span.flattened {
     font-weight: bold;
 }
 
-.requirements .lambers {
+.requirements .lumbers {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.requirements .lamber-1,
-.requirements .lamber-2
+.requirements .lumber-1,
+.requirements .lumber-2
 {
     position: relative;
     height: 290px;
@@ -190,7 +190,7 @@ span.flattened {
     font-size: 20px;
 }
 
-.requirements .lambers img {
+.requirements .lumbers img {
     margin-top: 70px;
     margin-bottom: 20px;
     width: 50px;
@@ -209,35 +209,35 @@ span.flattened {
     font-weight: bold;
 }
 
-.supplies .lambers {
+.supplies .lumbers {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.supplies .lambers p {
+.supplies .lumbers p {
     font-size: 20px;
     text-align: center;
 }
 
-.supplies .lambers img{
+.supplies .lumbers img{
     width: 330px;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
-.supplies .lambers div.supplies-link {
+.supplies .lumbers div.supplies-link {
     margin-top: 30px;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.supplies .lambers div.supplies-link a {
+.supplies .lumbers div.supplies-link a {
     padding-bottom: 2px;
 }
 
-.supplies .lambers div.supplies-link a:hover {
+.supplies .lumbers div.supplies-link a:hover {
     cursor: pointer;
     border-bottom: 2px solid white;
 }
@@ -350,6 +350,57 @@ span.flattened {
     background-color: black;
     border-radius: 10px;
     padding: 15px 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px 90px 60px;
+    background-color: black;
+    color: white;
+}
+
+footer .title-img {
+    width: 250px;
+    padding: 60px 0 15px 0;
+}
+
+footer .footer-title p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .footer-contacts img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+footer .img-wrapper {
+    width: 30px;
+    margin-right: 15px;
+    position: relative;
+}
+
+footer .img-wrapper img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+footer .footer-contacts span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer .footer-phone {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+footer .phpne-text span {
+    display: block;
 }
 
 @media (max-width: 950px) {
